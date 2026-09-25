@@ -19,7 +19,7 @@ const Hero = () => {
                         Prediction Markets
                     </p>
 
-                    <h1 className="text-5xl font-medium leading-[0.95] tracking-[-0.05em] text-white md:text-7xl lg:text-8xl">
+                    <h1 className="doto text-5xl uppercase leading-[0.9] tracking-[-0.04em] text-white md:text-7xl lg:text-8xl">
                         Trade what
                         <br />
                         happens next.
