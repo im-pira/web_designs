@@ -1,32 +1,24 @@
-# React + TypeScript + Vite
+# Brixton
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern shopping website landing page focused on clean visuals, bold product presentation, and a polished e-commerce experience.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Brixton is a landing page experiment for a fashion and shopping brand.
 
-## React Compiler
+The goal was to explore:
+- modern e-commerce layout
+- strong product-focused visuals
+- clean typography
+- responsive sections
+- subtle UI interactions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the Oxlint configuration
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Preview
+<img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/40a4fcf4-c167-49a2-b6b3-b3bec7c900c4" />
