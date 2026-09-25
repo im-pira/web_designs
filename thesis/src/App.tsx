@@ -1,9 +1,7 @@
-function App() {
-  return (
-    <div>
+import Hero from './components/Hero'
 
-    </div>
-  )
+function App() {
+  return <Hero />
 }
 
 export default App
