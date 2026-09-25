@@ -64,9 +64,6 @@ export default function Hero() {
                                 <p className="text-xs uppercase tracking-[0.22em] text-white/35">
                                     Top market
                                 </p>
-                                <p className="mt-2 text-sm text-white/70">
-                                    US rates below 4% by year end
-                                </p>
                             </div>
 
                             <div className="flex items-end gap-4">
