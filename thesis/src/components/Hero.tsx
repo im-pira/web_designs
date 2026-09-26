@@ -2,7 +2,7 @@ import Navbar from "./Nav";
 
 export default function Hero() {
     return (
-        <section className="relative min-h-screen overflow-hidden bg-black">
+        <section className="sticky top-0 z-0 h-screen overflow-hidden bg-black">
             <video
                 autoPlay
                 muted
