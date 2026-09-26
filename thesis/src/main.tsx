@@ -1,10 +1,36 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
+import { StrictMode, useEffect } from "react"
+import { createRoot } from "react-dom/client"
+import Lenis from "lenis"
+import "./index.css"
+import App from "./App"
 
-createRoot(document.getElementById('root')!).render(
+function SmoothScroll() {
+  useEffect(() => {
+    const lenis = new Lenis({
+      duration: 1.1,
+      smoothWheel: true,
+    })
+
+    let frame: number
+
+    const raf = (time: number) => {
+      lenis.raf(time)
+      frame = requestAnimationFrame(raf)
+    }
+
+    frame = requestAnimationFrame(raf)
+
+    return () => {
+      cancelAnimationFrame(frame)
+      lenis.destroy()
+    }
+  }, [])
+
+  return <App />
+}
+
+createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <App />
+    <SmoothScroll />
   </StrictMode>,
 )
