@@ -29,3 +29,12 @@ body {
   font-weight: 900;
   font-variation-settings: "ROND" 100;
 }
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
