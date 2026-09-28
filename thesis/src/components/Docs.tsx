@@ -109,7 +109,6 @@ export default function Docs() {
         >
             <div className="mx-auto max-w-[1500px]">
 
-                {/* HEADER */}
                 <div className="border-t border-white/10 pt-6">
                     <div className="flex items-center justify-between text-[9px] uppercase tracking-[.28em] text-white/25">
                         <span>03 / Documentation</span>
@@ -134,7 +133,6 @@ export default function Docs() {
                     </div>
                 </div>
 
-                {/* CARDS */}
                 <div className="relative mx-auto mt-20 h-[620px] w-full max-w-[1380px]">
                     {docs.map((doc, i) => (
                         <a

@@ -24,11 +24,9 @@ export default function Footer() {
         <footer className="relative z-50 bg-black px-4 py-10 md:px-8 lg:px-12">
             <div className="mx-auto max-w-[1500px] overflow-hidden rounded-[34px] bg-[#111] p-[18px] shadow-[0_35px_90px_rgba(0,0,0,.28)]">
 
-                {/* TOP CTA */}
                 <div className="relative min-h-[430px] overflow-hidden rounded-[24px] border border-white/15 bg-[linear-gradient(135deg,#ff6a2a_0%,#f15a29_42%,#a82c10_100%)] px-8 py-10 md:px-14 md:py-14 lg:px-16">
                     <div className="absolute inset-0 opacity-[.08] [background-image:linear-gradient(#fff_1px,transparent_1px),linear-gradient(90deg,#fff_1px,transparent_1px)] [background-size:42px_42px]" />
 
-                    {/* DECORATIVE CONNECTIONS */}
                     <svg
                         className="pointer-events-none absolute right-0 top-0 h-full w-[58%] opacity-40"
                         viewBox="0 0 700 430"
@@ -74,7 +72,6 @@ export default function Footer() {
                             </div>
                         </div>
 
-                        {/* RIGHT VISUAL */}
                         <div className="relative hidden h-[300px] lg:block">
                             <div className="absolute left-[10%] top-[42%] h-14 w-14 rounded-[14px] border border-white/15 bg-black/20 backdrop-blur-md" />
 
@@ -101,7 +98,6 @@ export default function Footer() {
                     </div>
                 </div>
 
-                {/* LOWER FOOTER */}
                 <div className="mt-[18px] rounded-[24px] border border-white/10 bg-[linear-gradient(135deg,#191919_0%,#101010_60%,#181818_100%)] px-8 py-10 md:px-14 lg:px-16">
                     <div className="grid gap-10 lg:grid-cols-[1fr_280px]">
                         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
@@ -125,8 +121,6 @@ export default function Footer() {
                                 </div>
                             ))}
                         </div>
-
-                        {/* STATUS CARD */}
                         <div className="rounded-[16px] border border-white/10 bg-white/[.025] p-5">
                             <div className="flex items-center justify-between">
                                 <div>
@@ -159,27 +153,27 @@ export default function Footer() {
                             </span>
                             <span>Thesis, 2026.</span>
                         </div>
-
                         <div className="flex items-center gap-3">
                             <a
                                 href="#"
-                                className="flex h-10 w-10 items-center justify-center rounded-[10px] border border-white/10 bg-white/[.03] text-white/60 transition hover:border-white/25 hover:text-white"
+                                aria-label="X"
+                                className="flex h-10 w-10 items-center justify-center rounded-[9px] bg-white transition hover:scale-105"
                             >
-                                <FaXTwitter size={16} />
+                                <FaXTwitter size={17} className="text-black" />
                             </a>
-
                             <a
                                 href="#"
-                                className="flex h-10 w-10 items-center justify-center rounded-[10px] border border-white/10 bg-white/[.03] text-white/60 transition hover:border-white/25 hover:text-white"
+                                aria-label="GitHub"
+                                className="flex h-10 w-10 items-center justify-center rounded-[9px] bg-white transition hover:scale-105"
                             >
-                                <FaGithub size={17} />
+                                <FaGithub size={19} className="text-black" />
                             </a>
-
                             <a
                                 href="#"
-                                className="flex h-10 w-10 items-center justify-center rounded-[10px] border border-white/10 bg-white/[.03] text-white/60 transition hover:border-white/25 hover:text-white"
+                                aria-label="LinkedIn"
+                                className="flex h-10 w-10 items-center justify-center rounded-[9px] bg-[#0A66C2] transition hover:scale-105"
                             >
-                                <FaLinkedinIn size={16} />
+                                <FaLinkedinIn size={18} className="text-white" />
                             </a>
                         </div>
                     </div>
