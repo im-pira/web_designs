@@ -10,6 +10,9 @@ body,
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 html,
 body {
   scrollbar-width: none;
