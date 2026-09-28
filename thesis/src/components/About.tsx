@@ -40,12 +40,10 @@ function FlowingRibbon() {
             const ox = original[i * 3]
             const oy = original[i * 3 + 1]
 
-            // Large flowing S movement
             const wave =
                 Math.sin(oy * 0.75 + time * 0.75) * 0.9 +
                 Math.sin(oy * 1.45 - time * 0.45) * 0.25
 
-            // Twist the ribbon itself
             const twist = oy * 0.65 + time * 0.7
 
             position.setXYZ(
@@ -109,14 +107,12 @@ export default function About() {
         <section id="about" className="relative bg-black text-white">
             <div className="mx-auto grid max-w-[1600px] grid-cols-1 px-6 md:px-12 lg:grid-cols-[44%_56%] lg:px-16">
 
-                {/* STICKY RIBBON */}
                 <div className="relative hidden lg:block">
                     <div className="sticky top-0 flex h-screen items-center justify-center">
                         <MarketVisual />
                     </div>
                 </div>
 
-                {/* SCROLLING TEXT */}
                 <div>
                     {steps.map((step) => (
                         <div
