@@ -1,10 +1,6 @@
 import { Canvas, useFrame } from "@react-three/fiber"
 import { useMemo, useRef } from "react"
-import {
-    DoubleSide,
-    Mesh,
-    PlaneGeometry,
-} from "three"
+import { DoubleSide, Mesh, PlaneGeometry, } from "three"
 
 const steps = [
     {
