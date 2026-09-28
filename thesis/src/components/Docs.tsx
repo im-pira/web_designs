@@ -57,7 +57,7 @@ function DitherImage({ src, alt }: { src: string; alt: string }) {
 
         const mx = (e.clientX - rect.left) / scale
         const my = (e.clientY - rect.top) / scale
-        const radius = 120 / scale
+        const radius = 150 / scale
 
         ctx.globalCompositeOperation = "destination-in"
 
