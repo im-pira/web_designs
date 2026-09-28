@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@import url("https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Geist+Pixel&display=swap");
+
 html,
 body,
 #root {
@@ -24,11 +26,17 @@ body {
   font-family: Inter, Arial, sans-serif;
 }
 
-.doto {
+.doto-round {
   font-family: "Doto", sans-serif;
   font-weight: 900;
   font-variation-settings: "ROND" 100;
 }
+
+.pixel-square {
+  font-family: "Geist Pixel", monospace;
+  font-variation-settings: "ELSH" 1;
+}
+
 @keyframes scroll {
   from {
     transform: translateX(0);

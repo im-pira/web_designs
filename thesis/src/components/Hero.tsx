@@ -30,7 +30,7 @@ export default function Hero() {
                             </p>
                         </div>
 
-                        <h1 className="doto inline-block text-5xl leading-[0.88] tracking-[-0.08em] text-white md:text-7xl lg:text-8xl">
+                        <h1 className="doto-round inline-block text-5xl leading-[0.88] tracking-[-0.08em] text-white md:text-7xl lg:text-8xl">
                             Trade what
                             <br />
                             happens next.
